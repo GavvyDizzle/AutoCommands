@@ -1,0 +1,9 @@
+name: AutoCommands
+version: '${project.version}'
+main: com.github.gavvydizzle.autocommands.AutoCommands
+api-version: '1.20'
+depend: [ServerUtils]
+commands:
+  autocommands:
+    description: AutoCommands admin commands
+    permission: autocommands.admin
